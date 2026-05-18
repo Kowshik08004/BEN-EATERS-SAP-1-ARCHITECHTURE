@@ -66,11 +66,70 @@
       <text dominant-baseline="central" font-family="SansSerif" font-size="5" text-anchor="middle" x="100" y="82">HALT</text>
       <circ-anchor facing="east" x="150" y="60"/>
     </appear>
+    <comp lib="0" loc="(600,390)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(620,390)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(640,390)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(660,390)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(680,390)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(700,390)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(720,390)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(740,390)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="6" loc="(600,110)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="6" loc="(620,110)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="6" loc="(640,110)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="6" loc="(660,110)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="6" loc="(680,110)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="6" loc="(700,110)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="6" loc="(720,110)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="6" loc="(740,110)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="9" loc="(671,84)" name="Text">
+      <a name="text" val="BUS"/>
+    </comp>
     <comp loc="(380,220)" name="REG_A">
       <a name="facing" val="south"/>
     </comp>
     <comp loc="(440,80)" name="CLK"/>
     <comp loc="(460,280)" name="REG_B"/>
+    <wire from="(600,110)" to="(600,390)"/>
+    <wire from="(620,110)" to="(620,390)"/>
+    <wire from="(640,110)" to="(640,390)"/>
+    <wire from="(660,110)" to="(660,390)"/>
+    <wire from="(680,110)" to="(680,390)"/>
+    <wire from="(700,110)" to="(700,390)"/>
+    <wire from="(720,110)" to="(720,390)"/>
+    <wire from="(740,110)" to="(740,390)"/>
   </circuit>
   <circuit name="CLK">
     <a name="appearance" val="custom"/>
@@ -118,6 +177,7 @@
     <comp lib="1" loc="(600,200)" name="AND Gate"/>
     <comp lib="1" loc="(600,330)" name="AND Gate"/>
     <comp lib="1" loc="(720,260)" name="OR Gate"/>
+    <comp lib="1" loc="(800,360)" name="NOT Gate"/>
     <comp lib="1" loc="(870,340)" name="AND Gate"/>
     <wire from="(410,270)" to="(490,270)"/>
     <wire from="(410,420)" to="(740,420)"/>
@@ -138,7 +198,8 @@
     <wire from="(740,260)" to="(740,320)"/>
     <wire from="(740,320)" to="(820,320)"/>
     <wire from="(740,360)" to="(740,420)"/>
-    <wire from="(740,360)" to="(820,360)"/>
+    <wire from="(740,360)" to="(770,360)"/>
+    <wire from="(800,360)" to="(820,360)"/>
     <wire from="(870,340)" to="(900,340)"/>
   </circuit>
   <circuit name="REG_A">
